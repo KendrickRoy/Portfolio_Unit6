@@ -1,18 +1,23 @@
+    body {
+      background: url("http://vignette4.wikia.nocookie.net/metroid/images/b/ba/Metroid.jpg/revision/latest?cb=20150702055904");
+     background-size: 100px;
+      color: #4dffc3;
+    }
     header {
       text-align: center;
-      background: url("images/banner.jpg");
       background-size: cover;
-      color: white;
+      color: beige;
+      
     }
     .nav {
-      color: white;
+      color: pink;
     }
     h1 {
       font-size: 70px;
     }
     img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
+      margin: 30%;
+      border: 7px white;
       border-radius: 20px;
     }
     ul {
@@ -31,6 +36,7 @@
     @media (max-width: 500px) {
       h1 {
         font-size: 36px;
+        color: white;
         padding: 5px;
       }
       li {
